@@ -3,13 +3,16 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .navbar {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
+    padding-left: 120px;
+    padding-right: 120px;
 }
 
 .logo {
@@ -27,3 +30,38 @@ li a{
     color:#E5E7EB;
     font-size: 18px;
 }
+
+/* End of header --- Beginning of Container1*/
+
+.con1 {
+    display: flex;
+     padding: 60px 120px;
+    gap: 30px;
+    background-color:#1F2937;
+}
+
+.con1-incon1 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.Hero-Main-Text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.Hero-Sec-Text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.Hero-Sign-Up a {
+    background-color: #3882F6;
+    padding: 5px 10px;
+    color: #F9FAF8;
+    border-radius: 3px;
+}
+
+
