@@ -126,3 +126,38 @@ li a{
 }
 
 /* End of Container3 - Beginning of Container4 */
+
+.con4 {
+    display: flex;
+    padding: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.con1incon4 { 
+    display: flex;
+    background-color: #3882F6;
+    padding: 40px 60px;
+    color: #F9FAF8;
+    border-radius: 8px;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+}
+
+.con1incon1incon4 {
+    font-weight: 900;
+}
+
+.con3incon1incon4 #Sign-UP{
+    color: #F9FAF8;
+    padding: 5px 20px;
+    border-width: 1px;
+    border-radius: 5px;
+    border-style: solid;
+}
